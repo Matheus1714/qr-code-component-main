@@ -1,0 +1,21 @@
+.BodyText{
+    display: flex;
+    flex-direction: column;
+}
+
+.BodyText .title, .BodyText .subtitle{
+    text-align: center;
+    margin: 20px;
+}
+
+.BodyText .title{
+    font-weight: 700;
+    font-size: calc(1.2*var(--font-size));
+    color: var(--dark-blue);
+    margin-bottom: -10px;
+}
+
+.BodyText .subtitle{
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
